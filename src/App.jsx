@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import Expenses from './components/Expenses'
 import Habits from './components/Habits'
 import Weight from './components/Weight'
-import logo from './assets/logo.jpg'
 import './App.css'
 
 export default function App() {
@@ -27,7 +26,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="navbar">
         <div className="nav-logo">
-          <img src={logo} alt="Dashboard Logo" className="logo-img" />
+          <img src="/favicon.ico" alt="Dashboard Logo" className="logo-img" />
         </div>
         <div className="nav-links">
           <button 
