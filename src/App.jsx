@@ -140,15 +140,7 @@ function SettingsPanel() {
           </p>
         </div>
 
-        <div style={{ padding: '20px', background: 'var(--bg-light-card-alt)', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-light)' }}>
-          <h4 style={{ margin: '0 0 8px 0', fontSize: '1rem', fontWeight: 600 }}>Supabase Database Connection</h4>
-          <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--text-secondary)', wordBreak: 'break-all' }}>
-            Endpoint: <code style={{ background: 'rgba(0,0,0,0.05)', padding: '2px 6px', borderRadius: '4px' }}>{import.meta.env.VITE_SUPABASE_URL}</code>
-          </p>
-          <p style={{ margin: '8px 0 0 0', fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-            Status: <span style={{ color: '#2e7d32', fontWeight: 600 }}>● Connected Successfully</span>
-          </p>
-        </div>
+
 
         <div style={{ padding: '20px', background: 'var(--bg-light-card-alt)', borderRadius: 'var(--radius-md)', border: '1px solid var(--border-light)' }}>
           <h4 style={{ margin: '0 0 8px 0', fontSize: '1rem', fontWeight: 600 }}>Application Metadata</h4>
